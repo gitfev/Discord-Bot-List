@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot-list",
+  "name": "Dlist",
   "version": "0.0.0",
   "description": "A Open-Source Discord Bot List.",
   "main": "src/index.js",
