@@ -14,7 +14,7 @@ module.exports = class extends Command {
   async run(message) {
     let bots = await Bots.find({}, { Id: false });
     bots = bots.filter((bot) => bot.state !== "deleted");
-    if (bots.length === 1)
+    if (bots.length === 0)
       message.reply({ content: "There is `1` bot in the list." });
     else {
       message.reply({
