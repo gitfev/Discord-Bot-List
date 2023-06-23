@@ -1,7 +1,7 @@
 {
   "name": "Dlist",
   "version": "0.0.0",
-  "description": "A Open-Source Discord Bot List.",
+  "description": "A Open-Source Dlist.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
