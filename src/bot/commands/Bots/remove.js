@@ -50,7 +50,7 @@ module.exports = class extends Command {
       )
     ) {
       return message.reply(
-        "Only DBL admin(s) or the respective bot owner(s) are allowed to remove this bot."
+        "Only DL admin(s) or the respective bot owner(s) are allowed to remove this bot."
       );
     }
     await Bots.updateOne(
