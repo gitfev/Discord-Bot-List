@@ -31,7 +31,7 @@ route.patch("/:id", auth, async (req, res) => {
     .channels.cache.get(server.likeLog);
   let webhook = (await channel.fetchWebhooks()).first();
   if (!webhook) {
-    webhook = await channel.createWebhook({ name: "DBL" });
+    webhook = await channel.createWebhook({ name: "" });
   }
   await webhook.send({
     content: `<@${req.user.id}> (${userProfile.tag}) liked <@${req.params.id}>`,
